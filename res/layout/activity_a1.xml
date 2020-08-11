@@ -1,0 +1,1981 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.ahp.MainActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="16dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView101"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="24dp"
+                android:text="购买平板从以下几个方面考虑：" />
+
+            <TextView
+                android:id="@+id/textView102"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="17dp"
+                android:text="A、价格" />
+
+            <TextView
+                android:id="@+id/textView104"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="D、用途（是否便与学习、是否便于游戏、是否便于爱奇艺。。。）" />
+
+            <TextView
+                android:id="@+id/textView105"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:text="C、CPU性能" />
+
+            <TextView
+                android:id="@+id/textView103"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="B、使用体验（包括尺寸、是否防蓝光、刷新率、扬声器。。。）" />
+
+            <TextView
+                android:id="@+id/textView106"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="备注：希望您在了解了各个iPad的大致情况之后再来进行测试" />
+
+            <TextView
+                android:id="@+id/textView801"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="一、第一轮测试" />
+
+            <TextView
+                android:id="@+id/textView107"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="1、价格相对于使用体验你觉得更重要吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极重要" />
+
+                <RadioButton
+                    android:id="@+id/radio12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很重要" />
+
+                <RadioButton
+                    android:id="@+id/radio13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="重要" />
+
+                <RadioButton
+                    android:id="@+id/radioButton14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样重要" />
+
+                <RadioButton
+                    android:id="@+id/radioButton15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不重要" />
+
+                <RadioButton
+                    android:id="@+id/radioButton16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不重要" />
+
+                <RadioButton
+                    android:id="@+id/radioButton17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不重要" />
+
+            </RadioGroup>
+            
+            <TextView
+                android:id="@+id/textView108"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="2、价格相对于使用用途你觉得更重要吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极重要" />
+
+                <RadioButton
+                    android:id="@+id/radio22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很重要" />
+
+                <RadioButton
+                    android:id="@+id/radio23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="重要" />
+
+                <RadioButton
+                    android:id="@+id/radioButton24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样重要" />
+
+                <RadioButton
+                    android:id="@+id/radioButton25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不重要" />
+
+                <RadioButton
+                    android:id="@+id/radioButton26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不重要" />
+
+                <RadioButton
+                    android:id="@+id/radioButton27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不重要" />
+
+            </RadioGroup>
+            
+             <TextView
+                android:id="@+id/textView109"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="3、价格相对于CPU你觉得更重要吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极重要" />
+
+                <RadioButton
+                    android:id="@+id/radio32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很重要" />
+
+                <RadioButton
+                    android:id="@+id/radio33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="重要" />
+
+                <RadioButton
+                    android:id="@+id/radioButton34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样重要" />
+
+                <RadioButton
+                    android:id="@+id/radioButton35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不重要" />
+
+                <RadioButton
+                    android:id="@+id/radioButton36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不重要" />
+
+                <RadioButton
+                    android:id="@+id/radioButton37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不重要" />
+
+            </RadioGroup>
+
+             <TextView
+                android:id="@+id/textView110"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="4、使用体验相对于用途你觉得更重要吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极重要" />
+
+                <RadioButton
+                    android:id="@+id/radio42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很重要" />
+
+                <RadioButton
+                    android:id="@+id/radio43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="重要" />
+
+                <RadioButton
+                    android:id="@+id/radioButton44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样重要" />
+
+                <RadioButton
+                    android:id="@+id/radioButton45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不重要" />
+
+                <RadioButton
+                    android:id="@+id/radioButton46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不重要" />
+
+                <RadioButton
+                    android:id="@+id/radioButton47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不重要" />
+
+            </RadioGroup>
+            
+             <TextView
+                android:id="@+id/textView111"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="5、使用体验相对于CPU你觉得更重要吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极重要" />
+
+                <RadioButton
+                    android:id="@+id/radio52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很重要" />
+
+                <RadioButton
+                    android:id="@+id/radio53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="重要" />
+
+                <RadioButton
+                    android:id="@+id/radioButton54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样重要" />
+
+                <RadioButton
+                    android:id="@+id/radioButton55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不重要" />
+
+                <RadioButton
+                    android:id="@+id/radioButton56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不重要" />
+
+                <RadioButton
+                    android:id="@+id/radioButton57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不重要" />
+
+            </RadioGroup>
+            
+             <TextView
+                android:id="@+id/textView112"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="6、用途相对于CPU你觉得更重要吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio61"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极重要" />
+
+                <RadioButton
+                    android:id="@+id/radio62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很重要" />
+
+                <RadioButton
+                    android:id="@+id/radio63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="重要" />
+
+                <RadioButton
+                    android:id="@+id/radioButton64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样重要" />
+
+                <RadioButton
+                    android:id="@+id/radioButton65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不重要" />
+
+                <RadioButton
+                    android:id="@+id/radioButton66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不重要" />
+
+                <RadioButton
+                    android:id="@+id/radioButton67"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不重要" />
+
+            </RadioGroup>
+            
+            <TextView
+                android:id="@+id/textView802"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="二、第二轮测试" />
+            
+            <TextView
+                android:id="@+id/textView803"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="我们比较的产品是：" />
+            
+            <TextView
+                android:id="@+id/textView804"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="A、iPad Pro3" />
+            
+            <TextView
+                android:id="@+id/textView805"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="B、iPad Air3" />
+            
+            <TextView
+                android:id="@+id/textView806"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="C、iPad mini5" />
+            
+            <TextView
+                android:id="@+id/textView807"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="D、iPad 2019" />
+            
+            <TextView
+                android:id="@+id/textView121"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="7、在价格上，你觉得iPad Pro3比iPad Air3更合适你吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio211"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极合适" />
+
+                <RadioButton
+                    android:id="@+id/radio212"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很合适" />
+
+                <RadioButton
+                    android:id="@+id/radio213"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton214"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton215"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton216"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton217"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不合适" />
+
+            </RadioGroup>
+            
+            <TextView
+                android:id="@+id/textView122"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="8、在价格上，你觉得iPad Pro3比iPad mini5更合适你吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup221"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio221"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极合适" />
+
+                <RadioButton
+                    android:id="@+id/radio222"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很合适" />
+
+                <RadioButton
+                    android:id="@+id/radio223"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton224"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton225"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton226"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton227"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不合适" />
+
+            </RadioGroup>
+            
+            <TextView
+                android:id="@+id/textView123"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="9、在价格上，你觉得iPad Pro3比iPad 2019更合适你吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio231"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极合适" />
+
+                <RadioButton
+                    android:id="@+id/radio232"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很合适" />
+
+                <RadioButton
+                    android:id="@+id/radio233"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton234"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton235"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton236"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton237"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不合适" />
+
+            </RadioGroup>
+            
+            <TextView
+                android:id="@+id/textView124"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="10、在价格上，你觉得iPad Air3比iPad mini5更合适你吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio241"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极合适" />
+
+                <RadioButton
+                    android:id="@+id/radio242"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很合适" />
+
+                <RadioButton
+                    android:id="@+id/radio243"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton244"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton245"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton246"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton247"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不合适" />
+
+            </RadioGroup>
+            
+            <TextView
+                android:id="@+id/textView125"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="11、在价格上，你觉得iPad Air3比iPad 2019更合适你吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio251"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极合适" />
+
+                <RadioButton
+                    android:id="@+id/radio252"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很合适" />
+
+                <RadioButton
+                    android:id="@+id/radio253"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton254"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton255"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton256"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton257"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不合适" />
+
+            </RadioGroup>
+            
+            <TextView
+                android:id="@+id/textView126"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="12、在价格上，你觉得iPad mini5比iPad 2019更合适你吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio261"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极合适" />
+
+                <RadioButton
+                    android:id="@+id/radio262"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很合适" />
+
+                <RadioButton
+                    android:id="@+id/radio263"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton264"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton265"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton266"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton267"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不合适" />
+
+            </RadioGroup>
+            
+            
+            /////////////////////////////////////////////////////////////////////
+            
+            
+            <TextView
+                android:id="@+id/textView131"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="13、在使用体验上，你觉得iPad Pro3比iPad Air3更合适你吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio311"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极合适" />
+
+                <RadioButton
+                    android:id="@+id/radio312"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很合适" />
+
+                <RadioButton
+                    android:id="@+id/radio313"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton314"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton315"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton316"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton317"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不合适" />
+
+            </RadioGroup>
+            
+            <TextView
+                android:id="@+id/textView132"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="14、在使用体验上，你觉得iPad Pro3比iPad mini5更合适你吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup321"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio321"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极合适" />
+
+                <RadioButton
+                    android:id="@+id/radio322"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很合适" />
+
+                <RadioButton
+                    android:id="@+id/radio323"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton324"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton325"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton326"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton327"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不合适" />
+
+            </RadioGroup>
+            
+            <TextView
+                android:id="@+id/textView133"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="15、在使用体验上，你觉得iPad Pro3比iPad 2019更合适你吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio331"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极合适" />
+
+                <RadioButton
+                    android:id="@+id/radio332"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很合适" />
+
+                <RadioButton
+                    android:id="@+id/radio333"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton334"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton335"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton336"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton337"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不合适" />
+
+            </RadioGroup>
+            
+            <TextView
+                android:id="@+id/textView134"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="16、在使用体验上，你觉得iPad Air3比iPad mini5更合适你吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio341"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极合适" />
+
+                <RadioButton
+                    android:id="@+id/radio342"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很合适" />
+
+                <RadioButton
+                    android:id="@+id/radio343"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton344"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton345"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton346"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton347"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不合适" />
+
+            </RadioGroup>
+            
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="17、在使用体验上，你觉得iPad Air3比iPad 2019更合适你吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio351"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极合适" />
+
+                <RadioButton
+                    android:id="@+id/radio352"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很合适" />
+
+                <RadioButton
+                    android:id="@+id/radio353"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton354"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton355"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton356"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton357"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不合适" />
+
+            </RadioGroup>
+            
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="18、在使用体验上，你觉得iPad mini5比iPad 2019更合适你吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio361"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极合适" />
+
+                <RadioButton
+                    android:id="@+id/radio362"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很合适" />
+
+                <RadioButton
+                    android:id="@+id/radio363"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton364"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton365"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton366"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton367"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不合适" />
+
+            </RadioGroup>
+            
+            /////////////////////////////////////////////////////////////////////
+            
+            
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="19、在用途上，你觉得iPad Pro3比iPad Air3更合适你吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio411"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极合适" />
+
+                <RadioButton
+                    android:id="@+id/radio412"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很合适" />
+
+                <RadioButton
+                    android:id="@+id/radio413"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton414"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton415"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton416"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton417"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不合适" />
+
+            </RadioGroup>
+            
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="20、在用途上，你觉得iPad Pro3比iPad mini5更合适你吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup421"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio421"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极合适" />
+
+                <RadioButton
+                    android:id="@+id/radio422"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很合适" />
+
+                <RadioButton
+                    android:id="@+id/radio423"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton424"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton425"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton426"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton427"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不合适" />
+
+            </RadioGroup>
+            
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="21、在用途上，你觉得iPad Pro3比iPad 2019更合适你吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio431"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极合适" />
+
+                <RadioButton
+                    android:id="@+id/radio432"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很合适" />
+
+                <RadioButton
+                    android:id="@+id/radio433"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton434"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton435"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton436"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton437"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不合适" />
+
+            </RadioGroup>
+            
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="22、在使用体验上，你觉得iPad Air3比iPad mini5更合适你吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio441"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极合适" />
+
+                <RadioButton
+                    android:id="@+id/radio442"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很合适" />
+
+                <RadioButton
+                    android:id="@+id/radio443"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton444"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton445"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton446"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton447"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不合适" />
+
+            </RadioGroup>
+            
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="23、用途上，你觉得iPad Air3比iPad 2019更合适你吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio451"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极合适" />
+
+                <RadioButton
+                    android:id="@+id/radio452"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很合适" />
+
+                <RadioButton
+                    android:id="@+id/radio453"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton454"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton455"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton456"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton457"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不合适" />
+
+            </RadioGroup>
+            
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="24、在用途上，你觉得iPad mini5比iPad 2019更合适你吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup46"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio461"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极合适" />
+
+                <RadioButton
+                    android:id="@+id/radio462"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很合适" />
+
+                <RadioButton
+                    android:id="@+id/radio463"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton464"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton465"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton466"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton467"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不合适" />
+
+            </RadioGroup>
+            
+            /////////////////////////////////////////////////////////////////////
+            
+            
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="25、在CPU上，你觉得iPad Pro3比iPad Air3更合适你吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio511"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极合适" />
+
+                <RadioButton
+                    android:id="@+id/radio512"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很合适" />
+
+                <RadioButton
+                    android:id="@+id/radio513"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton514"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton515"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton516"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton517"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不合适" />
+
+            </RadioGroup>
+            
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="26、在CPU上，你觉得iPad Pro3比iPad mini5更合适你吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup521"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio521"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极合适" />
+
+                <RadioButton
+                    android:id="@+id/radio522"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很合适" />
+
+                <RadioButton
+                    android:id="@+id/radio523"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton524"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton525"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton526"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton527"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不合适" />
+
+            </RadioGroup>
+            
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="27、在CPU上，你觉得iPad Pro3比iPad 2019更合适你吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio531"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极合适" />
+
+                <RadioButton
+                    android:id="@+id/radio532"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很合适" />
+
+                <RadioButton
+                    android:id="@+id/radio533"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton534"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton535"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton536"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton537"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不合适" />
+
+            </RadioGroup>
+            
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="28、在CPU上，你觉得iPad Air3比iPad mini5更合适你吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio541"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极合适" />
+
+                <RadioButton
+                    android:id="@+id/radio542"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很合适" />
+
+                <RadioButton
+                    android:id="@+id/radio543"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton544"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton545"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton546"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton547"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不合适" />
+
+            </RadioGroup>
+            
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="29、在CPU上，你觉得iPad Air3比iPad 2019更合适你吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio551"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极合适" />
+
+                <RadioButton
+                    android:id="@+id/radio552"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很合适" />
+
+                <RadioButton
+                    android:id="@+id/radio553"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton554"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton555"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton556"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton557"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不合适" />
+
+            </RadioGroup>
+            
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="30、在CPU上，你觉得iPad mini5比iPad 2019更合适你吗？" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:id="@+id/radio561"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="极合适" />
+
+                <RadioButton
+                    android:id="@+id/radio562"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很合适" />
+
+                <RadioButton
+                    android:id="@+id/radio563"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton564"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="一样合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton565"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton566"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="很不合适" />
+
+                <RadioButton
+                    android:id="@+id/radioButton567"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="极不合适" />
+
+            </RadioGroup>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.20"
+                android:weightSum="1" >
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="0.33"
+                    android:text="Button"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginVertical="@dimen/activity_horizontal_margin"
+                    android:layout_weight="0.33"
+                    android:text="继  续" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="0.33"
+                    android:text="Button"
+                    android:visibility="invisible" />
+            </LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:weightSum="1">
+
+            <TextView android:id="@+id/textView1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="C1" />
+
+            <TextView android:id="@+id/textView2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="价格" />
+
+            <TextView android:id="@+id/textView3" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="体验" />
+
+            <TextView android:id="@+id/textView4" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="用途" />
+
+            <TextView android:id="@+id/textView5" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="CPU" />
+
+        </LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="四个指标重视程度" />
+
+            <TextView android:id="@+id/textView7" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="a1" />
+
+            <TextView android:id="@+id/textView8" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="a2" />
+
+            <TextView android:id="@+id/textView9" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="a3" />
+
+            <TextView android:id="@+id/textView10" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="a4" />
+
+        </LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:weightSum="1">
+
+            <TextView android:id="@+id/textView11" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="iPad Pro3" />
+
+            <TextView android:id="@+id/textView12" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginHorizontal="@dimen/activity_horizontal_margin" android:layout_weight="0.2" android:text="b11" />
+
+            <TextView android:id="@+id/textView13" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="b21" />
+
+            <TextView android:id="@+id/textView14" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="b31" />
+
+            <TextView android:id="@+id/textView15" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="b41" />
+
+        </LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:weightSum="1">
+
+            <TextView android:id="@+id/textView16" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="iPad  Air3" />
+
+            <TextView android:id="@+id/textView17" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="b12" />
+
+            <TextView android:id="@+id/textView18" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="b22" />
+
+            <TextView android:id="@+id/textView19" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="b32" />
+
+            <TextView android:id="@+id/textView20" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="b42" />
+
+        </LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:weightSum="1">
+
+            <TextView android:id="@+id/textView21" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="iPad mini5" />
+
+            <TextView android:id="@+id/textView22" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="b13" />
+
+            <TextView android:id="@+id/textView23" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="b23" />
+
+            <TextView android:id="@+id/textView24" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="b33" />
+
+            <TextView android:id="@+id/textView25" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="b43" />
+
+        </LinearLayout><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:weightSum="1">
+
+            <TextView android:id="@+id/textView26" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="iPad 2019" />
+
+            <TextView android:id="@+id/textView27" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="b14" />
+
+            <TextView android:id="@+id/textView28" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="b24" />
+
+            <TextView android:id="@+id/textView29" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="b34" />
+
+            <TextView android:id="@+id/textView30" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.2" android:text="b44" />
+
+        </LinearLayout><TextView android:id="@+id/textView31" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="结果" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
